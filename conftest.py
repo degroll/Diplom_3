@@ -22,7 +22,7 @@ def driver(request):
 
 @pytest.fixture
 def create_user():
-    user = TEST_ACCOUNT.copy
+    user = TEST_ACCOUNT.copy()
     response = requests.post(f"{URL}{CREATE_USER}", json=TEST_ACCOUNT)
     access_token = response.json().get('accessToken')
 
