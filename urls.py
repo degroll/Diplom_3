@@ -1,0 +1,5 @@
+URL = "https://stellarburgers.education-services.ru"
+URL_LOGIN = "https://stellarburgers.education-services.ru/login"
+CREATE_USER = "/api/auth/register"
+AUTH_ENDPOINT = "/api/auth/user"
+URL_FEED = "https://stellarburgers.education-services.ru/feed"
