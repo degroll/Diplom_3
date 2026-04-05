@@ -36,7 +36,7 @@ class TestMainPage:
         main_page.open_main_page()
         main_page.click_any_ingredient()
         main_page.close_modal()
-        assert main_page.is_modal_closed() == True
+        assert main_page.is_modal_closed()
 
     @allure.title("Тест: Работает ли счётчик соуса")
     def test_sauce_counter_increases(self, driver):
