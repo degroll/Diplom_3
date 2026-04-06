@@ -64,6 +64,7 @@ Diplom_3
 ├── README.md # Текущий файл (описание проекта)
 ├── requirements.txt # Зависимости проекта (pytest, selenium, allure и requests)
 └── urls.py # URL-адреса тестируемого приложения
+```
 
 ### Требования для запуска
 
